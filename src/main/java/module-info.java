@@ -3,6 +3,6 @@ module com.example.vocabulary {
     requires javafx.fxml;
 
 
-    opens com.example.vocabulary to javafx.fxml;
-    exports com.example.vocabulary;
+    opens com.example.peoples_name to javafx.fxml;
+    exports com.example.peoples_name;
 }
