@@ -1,22 +1,14 @@
-Sacha
-Ivan
-Nikita
-Kate
-Helen
-Olga
-Mark
-Karina
-Sveta
-Masha
+Inxibit Подавлять
+Avoid Избегать
+Fine Штраф
+Repair Чинить
+Drill Сверлить
+Dog  Собака
+Cat  Кошка
+House Дом
+Shark Акула
 
 
-Gena
-Kola
-Toma
-Marina
-Illa
-Dima
-Dina
-Vova
-Sergey
-Kirill
+
+
+

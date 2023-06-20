@@ -11,20 +11,23 @@
 <?import javafx.scene.layout.VBox?>
 
 
-<VBox prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1"
+<?import javafx.scene.control.TextField?>
+<VBox prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="com.example.peoples_name.HelloController">
 
 
 
     <children>
-        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="500.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
             <children>
-                <ListView layoutX="20.0" prefHeight="333.0" prefWidth="260.0" fx:id="listView"/>
-                <Button layoutX="20.0" layoutY="360.0" mnemonicParsing="false" text="Button"
-                        onAction="#action"/>
+                <ListView layoutX="20.0" layoutY="27.0" prefHeight="50.0" prefWidth="160.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="70.0" fx:id="word" />
+                <TextField layoutX="20.0" layoutY="05.0" prefHeight="16.0" prefWidth="353.0" fx:id="inputField"/>
+                <ListView layoutX="20.0" layoutY="27.0" prefHeight="50.0" prefWidth="160.0" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="70.0" fx:id="translate"/>
+<!--                <Button layoutX="20.0" layoutY="360.0" mnemonicParsing="false" text="Button"-->
+<!--                        onAction="#action"/>-->
+                <Button layoutX="107.0" layoutY="35.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="350.0" text="Add Word" AnchorPane.rightAnchor="5.0" onAction="#action"/>
+
             </children>
         </AnchorPane>
     </children>
 </VBox>
-
-
